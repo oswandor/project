@@ -4,7 +4,6 @@ import PopularProducts from '../components/dashboard/PopularProducts';
 import BestSellingSection from '../components/dashboard/BestSellingSection';
 import { useCart } from '../context/CartContext';
 import { Link, Route, useNavigate } from 'react-router-dom';
-import Shop from './Shop';
 
 function StoreFront() {
   const { dispatch } = useCart();
@@ -47,8 +46,8 @@ function StoreFront() {
       <nav className="flex items-center justify-between px-8 py-4 border-b">
         <div className="text-2xl font-bold">Slick</div>
         <div className="hidden md:flex space-x-8">
-          <a href="#" className="hover:text-gray-600">Home</a>
-          <a href="/shop" className="hover:text-gray-600">Shop</a>
+          <Link to="/" className="hover:text-gray-600">Home</Link>
+          <Link to="/shop" className="hover:text-gray-600">Shop</Link>
           <a href="#" className="hover:text-gray-600">Collection</a>
           <a href="#" className="hover:text-gray-600">Customize</a>
         </div>
