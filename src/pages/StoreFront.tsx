@@ -3,7 +3,8 @@ import { Search, ShoppingCart, Menu, ChevronLeft, ChevronRight, MoveRight, LogOu
 import PopularProducts from '../components/dashboard/PopularProducts';
 import BestSellingSection from '../components/dashboard/BestSellingSection';
 import { useCart } from '../context/CartContext';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, Route, useNavigate } from 'react-router-dom';
+import Shop from './Shop';
 
 function StoreFront() {
   const { dispatch } = useCart();
@@ -97,8 +98,10 @@ function StoreFront() {
           <p className="text-gray-600 mb-8">
             Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod.
           </p>
-          <button className="bg-black text-white px-8 py-3 rounded w-fit hover:bg-gray-800">
-            <Link to={"/shop"}> Shop Now</Link>
+          <button className="bg-black text-white px-8 py-3 rounded w-fit hover:bg-gray-800"
+            onClick={() => navigate('/shop')}
+          >
+          Shop Now
            
           </button>
         </div>
