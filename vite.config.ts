@@ -7,4 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    outDir: "build",  // Asegura que Vite genere la carpeta "build"
+  },
 })
