@@ -195,7 +195,7 @@ function Shop() {
                   </span>
                 )}
                 <img
-                  src={product.imagen.startsWith('/storage/productos/') ? `http://localhost:8000${product.imagen}` : product.imagen}
+                  src={product.imagen.startsWith('/storage/productos/') ? `https://inventoryshoessonso.azurewebsites.net${product.imagen}` : product.imagen}
                   alt={product.nombre}
                   className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
         
