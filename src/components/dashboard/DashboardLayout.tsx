@@ -40,7 +40,7 @@ function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="fixed inset-0 bg-gray-900/80" onClick={() => setSidebarOpen(false)} />
         <div className="fixed inset-y-0 left-0 w-64 bg-white">
           <div className="flex items-center justify-between h-16 px-6 border-b">
-            <span className="text-2xl font-bold">Slick Admin</span>
+            <span className="text-2xl font-bold">Ulices shoes Admin</span>
             <button onClick={() => setSidebarOpen(false)}>
               <X className="w-6 h-6" />
             </button>
@@ -71,7 +71,7 @@ function DashboardLayout({ children }: DashboardLayoutProps) {
       <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-64 lg:flex-col">
         <div className="flex flex-col flex-grow bg-white border-r">
           <div className="flex items-center h-16 px-6 border-b">
-            <span className="text-2xl font-bold">Slick Admin</span>
+            <span className="text-2xl font-bold">Ulices shoes Admin</span>
           </div>
           <nav className="flex-1 px-4 py-4">
             {navigation.map((item) => {

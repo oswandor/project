@@ -91,10 +91,10 @@ function Login() {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
-          <h1 className="text-4xl font-bold">Slick</h1>
-          <h2 className="mt-6 text-3xl font-bold text-gray-900">Welcome back</h2>
+          <h1 className="text-4xl font-bold">Ulices shoes</h1>
+          <h2 className="mt-6 text-3xl font-bold text-gray-900">Bienvenido de nuevo</h2>
           <p className="mt-2 text-sm text-gray-600">
-            Sign in to access your admin dashboard
+          Inicia sesión para acceder a tu panel de administración
           </p>
         </div>
 

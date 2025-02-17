@@ -44,12 +44,12 @@ function StoreFront() {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="flex items-center justify-between px-8 py-4 border-b">
-        <div className="text-2xl font-bold">Slick</div>
+        <div className="text-2xl font-bold">Ulices shoes</div>
         <div className="hidden md:flex space-x-8">
-          <Link to="/" className="hover:text-gray-600">Home</Link>
-          <Link to="/shop" className="hover:text-gray-600">Shop</Link>
-          <a href="#" className="hover:text-gray-600">Collection</a>
-          <a href="#" className="hover:text-gray-600">Customize</a>
+          <Link to="/" className="hover:text-gray-600">Inicio</Link>
+          <Link to="/shop" className="hover:text-gray-600">Tienda</Link>
+          <a href="#" className="hover:text-gray-600">Colección</a>
+          <a href="#" className="hover:text-gray-600">Personalizar</a>
         </div>
         <div className="flex items-center space-x-4">
 
@@ -90,18 +90,17 @@ function StoreFront() {
       <div className="grid md:grid-cols-2 gap-8 px-8 py-12">
         <div className="flex flex-col justify-center">
           <h1 className="text-5xl font-bold mb-4">
-            Find Your<br />
-            Sole Mate<br />
-            With Us
+        Encuentra  <br /> 
+        a tu pareja <br />
+        única con nosotros
           </h1>
           <p className="text-gray-600 mb-8">
-            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod.
+          Descubre nuestra colección de calzado de moda, diseñado para combinar estilo y comodidad en cada paso.
           </p>
           <button className="bg-black text-white px-8 py-3 rounded w-fit hover:bg-gray-800"
             onClick={() => navigate('/shop')}
           >
-          Shop Now
-           
+          Compra ahora
           </button>
         </div>
         <div className="relative">
@@ -111,7 +110,7 @@ function StoreFront() {
             className="w-full h-[400px] object-cover rounded-lg"
           />
           <div className="absolute bottom-4 right-4 bg-white p-4 rounded-lg shadow-lg">
-            <h3 className="font-semibold">Trendy Slick Pro</h3>
+            <h3 className="font-semibold">Trendy Ulices shoes Pro</h3>
             <p className="text-gray-600">$ 3999.00</p>
           </div>
         </div>
@@ -130,10 +129,10 @@ function StoreFront() {
       <div className="px-8 py-12">
         <div className="flex justify-between items-end mb-8">
           <div>
-            <p className="text-gray-600 mb-2">Our Trending Shoe</p>
-            <h2 className="text-3xl font-bold">Most Popular<br />Products</h2>
+            <p className="text-gray-600 mb-2">Nuestro zapato en tendencia</p>
+            <h2 className="text-3xl font-bold">Productos <br />más populares</h2>
             <p className="text-gray-600 mt-2 max-w-md">
-              Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+            Descubre nuestra colección de calzado de moda.
             </p>
             <button className="bg-black text-white px-8 py-3 rounded mt-4 hover:bg-gray-800">
               Explore

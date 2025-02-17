@@ -100,12 +100,12 @@ function Shop() {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="flex items-center justify-between px-8 py-4 border-b">
-        <div className="text-2xl font-bold">Slick</div>
+        <div className="text-2xl font-bold">Ulices shoes</div>
         <div className="hidden md:flex space-x-8">
-          <a href="/" className="hover:text-gray-600">Home</a>
-          <a href="/shop" className="text-black font-medium">Shop</a>
-          <a href="#" className="hover:text-gray-600">Collection</a>
-          <a href="#" className="hover:text-gray-600">Customize</a>
+          <a href="/" className="hover:text-gray-600">Inicio</a>
+          <a href="/shop" className="text-black font-medium">Tienda</a>
+          <a href="#" className="hover:text-gray-600">Colección</a>
+          <a href="#" className="hover:text-gray-600">Personalizar</a>
         </div>
         <div className="flex items-center space-x-4">
           <Search className="w-6 h-6 cursor-pointer" />
@@ -118,9 +118,9 @@ function Shop() {
       {/* Hero Section */}
       <div className="bg-gray-100 py-12 px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Shop All Shoes</h1>
+          <h1 className="text-4xl font-bold mb-4">Todos los Zapatos</h1>
           <p className="text-gray-600 max-w-2xl">
-            Discover our collection of premium footwear. From sports to formal, find your perfect pair.
+          Descubre nuestra colección de calzado de primera calidad. Desde calzado deportivo hasta calzado formal, encuentra tu par perfecto.
           </p>
         </div>
       </div>
